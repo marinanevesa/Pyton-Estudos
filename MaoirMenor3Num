@@ -1,0 +1,18 @@
+a = int(input(""))
+b = int(input(""))
+c = int(input(""))
+
+maior = a
+menor = a
+
+if b > maior:
+    maior = b
+if c > maior:
+    maior = c
+if b < menor:
+    menor =b
+if c < menor:
+    menor = c
+
+print("maior:", maior)
+print("menor:", menor)
